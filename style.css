@@ -160,19 +160,25 @@ p {
   } 
 
   p {
-    font-size: 8px;
+    font-size: 9px;
   }
   
 }
 
 @media screen and (max-width: 600px) {
-    h2.dissapear {
-    color: black;
-  } 
+ 
+p.invisible {
+  color: white;
+}
 
-  p {
-    color: black;
-  }
+a.new {
+  float: left; 
+  margin: 0px 0px 80px 82px;
+}
+
+img.whatsnew1 {
+  margin-left: 20px;
+} 
   
 }
 
