@@ -1,3 +1,9 @@
-var d = new Date()
+var date = new Date()
+var m = date.getMonth()
+var d = date.getDay()
+var y = date.getFullYear()
 
-document.write('<p>' + d + '</p>');
+var copyright = document.querySelector("#copyright")
+
+copyright.textContent = 'Copyright ' + m + '-' + d + '-'+ y
+
