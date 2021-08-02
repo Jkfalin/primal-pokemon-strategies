@@ -179,6 +179,21 @@ a.new {
 img.whatsnew1 {
   margin-left: 20px;
 } 
+
+div.copywright {
+  color: black;
+}
+ 
+#demo {
+  color: black;
+  width: 200;
+  height: 200;
+  border-radius: 4px;
+}
+
+p.black {
+  color: black;
+}
   
 }
 
