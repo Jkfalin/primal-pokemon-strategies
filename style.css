@@ -74,10 +74,7 @@ a:hover{
     color: red;
 }
 
-a.new {
-  float: left; 
-  margin: 0px 0px 80px 82px;
-}
+
 
 div.new {
     margin: 0px auto;
@@ -187,7 +184,10 @@ p {
   p.invisible {
     color: white;
   }
-
+  a.new {
+  float: left; 
+  margin: 0px 0px 80px 82px;
+}
 }
 
 
@@ -195,6 +195,7 @@ p {
 
 #copyright {
   text-align: center;
+  color: red;
 }
   
 
